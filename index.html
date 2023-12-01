@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<title>Subscription Form</title>
+</head>
+
+<body>
+  <h1 id="title">Subscription Form</h1>
+  <p id="description"><b>Thank you</b> for subscribing to our newsletter!</p>
+  <form id="survey-form">
+        <label for="name" id="name-label">Enter Your Name: <input id="name" name="name" type="text" placeholder="Put your full name here..." required /></label>
+        <label for="email" id="email-label">Enter Your Email: <input id="email" name="email" type="email" placeholder="example@example.org" required /></label>
+        <label for="number" id="number-label">Input Your Age(number): <input id="number" name="age" type="number" min="13" max="110" placeholder="16" required /></label>
+        
+        <legend>Do you wanna to receive our monthly newsletter?</legend>
+        <label for="yes-account"><input id="yes-account" type="radio" name="account-type" class="inline" value="YES" checked /> Yes, I would love to.</label>
+        <label for="no-account"><input id="no-account" type="radio" name="account-type" class="inline" value="NO" /> No, thank you.</label>
+        
+        <legend>Which category are you interested in?(You can choose all of them)</legend>
+        <label for="topic1"><input type="checkbox" id="topic1" name="topic1" value="Cinema"> Cinema</label><br>
+<label for="topic2"><input type="checkbox" id="topic2" name="topic2" value="Theater"> Theater</label><br>
+<label for="topic3"><input type="checkbox" id="topic3" name="topic3" value="Opera"> Opera</label><br>
+        <label for="dropdown">How did you hear about us?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Facebook</option>
+            <option value="2">Instagram</option>
+            <option value="3">LinkedIn</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="comments">Do you have anything to add?
+          <textarea id="comments" name="comments" rows="3" cols="30" placeholder="I really want to receive offers from..."></textarea>
+        </label>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+</body>
+</html>

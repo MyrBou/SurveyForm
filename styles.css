@@ -1,0 +1,43 @@
+h1,p{
+    text-align:center;
+  }
+  
+  input[type=text],input[type=email],input[type=number], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="checkbox"], input[type="radio"]{
+    display:inline-block;
+    vertical-align:middle;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    width:100%;
+  }
+  
+  input[type=submit] {
+    background-color:black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ccc;
+    color:black;
+  }
+  
+  #survey-form {
+    border-radius: 5px;
+    background-color: orange;
+    padding: 20px;
+  }
+  
+  
